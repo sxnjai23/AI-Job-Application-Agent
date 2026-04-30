@@ -14,7 +14,7 @@ BASE_BULLETS = [
     "Proficient in NLP, CNNs, LSTMs, LangChain, FastAPI, and model deployment using Streamlit.",
 ]
 client = Groq(
-    api_key=os.environ.get("GROQ_API_KEY", "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")
+    api_key=os.environ.get("GROQ_API_KEY", "your_groq_api_key_here (visit https://groq.com to get one)"),
 )
 
 
