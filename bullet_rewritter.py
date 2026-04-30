@@ -14,7 +14,7 @@ BASE_BULLETS = [
     "Proficient in NLP, CNNs, LSTMs, LangChain, FastAPI, and model deployment using Streamlit.",
 ]
 client = Groq(
-    api_key=os.environ.get("GROQ_API_KEY", "Your_API_Key_Here")
+    api_key=os.environ.get("GROQ_API_KEY", "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")
 )
 
 
@@ -65,7 +65,7 @@ REWRITTEN BULLETS:
 """
 
     response = client.chat.completions.create(
-        model="llama3-8b-8192",   # Free, fast, good quality
+        model="llama-3.3-70b-versatile",   # Free, fast, good quality
         messages=[
             {
                 "role": "system",

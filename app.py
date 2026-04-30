@@ -16,9 +16,9 @@ from job_tracker import (
     get_all_applications, get_stats,
     get_pending_followups, mark_alert_sent
 )
-from scrape_jd import scrape_job_description
-from rewrite_bullets import rewrite_bullets, BASE_BULLETS
-from telegram_alerts import run_daily_check, test_connection
+from jd_scrapper import scrape_job_description
+from bullet_rewritter import rewrite_bullets, BASE_BULLETS
+from tel_alerts import run_daily_check, test_connection
 
 # ── Page config ────────────────────────────────────────────────────────────────
 st.set_page_config(
