@@ -1,9 +1,6 @@
 streamlit
-bs4
 requests
-pandas
-openai
-os
+beautifulsoup4
 groq
-re
+pandas
 python-dotenv
