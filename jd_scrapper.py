@@ -1,5 +1,5 @@
 import requests
-from bs4 import BeautifulSoup
+from beautifulsoap4 import BeautifulSoup
 import re
 
 HEADERS = {

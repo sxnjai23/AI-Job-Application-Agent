@@ -4,8 +4,8 @@ from job_tracker import get_pending_followups, mark_alert_sent, init_db
 
 # ── Config ─────────────────────────────────────────────────────────────────────
 # Get these from the setup steps below
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8294022580:AAExxrrG2GjrMynE4oyINf9vbZPFNzazAXI")
-TELEGRAM_CHAT_ID   = os.environ.get("TELEGRAM_CHAT_ID",   "1301574453")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "bot_token")
+TELEGRAM_CHAT_ID   = os.environ.get("TELEGRAM_CHAT_ID",   "your_chat_id")
 
 BASE_URL = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}"
 
